@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: left;
+    padding-left: 0.3px;
+    background-color: var(--color-primary);
+}
+
+.navbar a{
+    color: rgb(221, 144, 0);
+    padding:  3px 15px;
+    text-decoration: none;
+} 
+
+.navbar a:hover{
+    background-color: var(--color-primary-dark);
+}
+
