@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario UREE</title>
+    <link rel="stylesheet" href="estilos/formstyles.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Formulario UREE</h2>
+    <label for="products">Seleccione su producto:</label>
+    <select name="products" id="products">
+        <option value="bombillaLed">Bombilla LED de diseño moderno</option>
+        <option value="termostato">Termostato inteligente con control de voz</option>
+        <option value="cargadorSolar">Cargador solar portátil</option>
+    </select>
+    
+    <label for="productColor">Color:</label>
+    <input type="color" name="productColor" id="productColor">
+    
+    <label for="engraving">¿Desea grabado personalizado?</label>
+    <input type="checkbox" name="engraving" id="engraving">
+    <textarea name="engravingText" id="engravingText" placeholder="Texto para grabado"></textarea>
+    
+    <label for="address">Dirección:</label>
+    <input type="text" name="address" id="address">
+    
+    <label for="city">Ciudad:</label>
+    <input type="text" name="city" id="city">
+    
+    <label for="zip">Código Postal:</label>
+    <input type="text" name="zip" id="zip">
+    
+    <button>Confirmar Pedido</button>
+</div>
+
+</body>
+</html>
