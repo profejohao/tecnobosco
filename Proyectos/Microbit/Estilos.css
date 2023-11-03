@@ -1,0 +1,759 @@
+#a1,
+#a2,
+#a3 {
+    text-decoration: none;
+    color: black;
+    padding-right: 22px;
+}
+
+#div1 {
+    left: 0%;
+    top: 0%;
+    /*Sirve para que el menú este al tope de la pantalla, pq si no se lo pongo queda mal en la presentación*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    /*Esta línea sirve para que el div que contiene todo el menú, ps se quede estatica y cuando bajemos en la pág el menu lo tengamos a la mano practicamente*/
+    z-index: 999999;
+    /*Esta línea sirve para que el menú se muestre por encima de todos los objetos*/
+    width: 101%;
+    /*Esta línea sirve para que el menú se muestre en toda la pantalla, por si se preguntan que significa vw es viewport width, ps osea  */
+
+
+}
+
+
+
+
+
+#btn1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    /*Esta línea es más que todo algo estetico, sirve para cambiarle de alguna manera la apariencia del cursor*/
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: rgb(184, 36, 230);
+    color: white;
+}
+
+#btn1:hover {
+    /*Esta línea es para que cuand pasemos el cursor por encima del boton que tiene ps el id cambie al estilo que ps uno quiera */
+    color: white;
+    background-color: rgb(184, 36, 230);
+}
+
+#h1 {
+    padding-left: 22%;
+    padding-top: 1%;
+}
+
+
+#gif {
+    padding-left: 90px;
+    max-width: 280px;
+    max-height: 280px;
+    rotate: 30grad;
+    margin-bottom: -105px;
+
+}
+
+#div2 {
+    text-align: center;
+    border-style: solid;
+    border-color: transparent;
+    background-color: rgb(233, 241, 247);
+    color: rgb(50, 65, 88);
+    width: 101%;
+}
+
+#img22 {
+    width: 102%;
+    height: 100%;
+}
+
+#imgif {
+    max-width: 150px;
+    min-width: 150px;
+}
+
+#div222 {
+    background-image: url('RWPaVx.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 101%;
+    height: 355px;
+}
+
+body {
+    
+    overflow-x: hidden;
+    /*esto sirve para deshabilitar la barra de desplzamiento horizontal pq la imagen que va despues del Bienvenidos a mi juego quedaba mas pequeño que el div y se veia feo*/
+}
+
+#txt1 {
+    padding: 20px;
+    margin-left: 130px;
+    background-color: rgb(233, 241, 247);
+    color: rgb(50, 65, 88);
+    width: 270px;
+    top: 63%;
+}
+
+#btn12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: rgb(0, 85, 255);
+    color: white;
+}
+
+#btn12:hover {
+    color: white;
+    background-color: rgb(0, 183, 255);
+}
+
+#step {
+    text-align: center;
+}
+
+#flex {
+    display: flex;
+}
+
+#step1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    color: rgb(50, 65, 88);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-color: rgb(215, 215, 215);
+}
+
+#step11 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    color: rgb(50, 65, 88);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-color: rgb(215, 215, 215);
+}
+
+#resu1 {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(233, 241, 247);
+    color: rgb(50, 65, 88);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    border: 1px solid black;
+    max-width: 570px;
+    border-color: rgb(215, 215, 215);
+}
+
+#resu11 {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(233, 241, 247);
+    color: rgb(50, 65, 88);
+    max-width: 570px;
+    max-height: 300px;
+    border-color: rgb(215, 215, 215);
+}
+
+#dad {
+padding-left: 23%;
+}
+
+#txt2 {
+    padding: 10px;
+    margin-left: 100px;
+    color: rgb(254, 0, 0);
+    border-color: transparent;
+    background-color: transparent;
+    width: 270px;
+    position: absolute;
+    top: 119%;
+    left: 36%;
+}
+
+#micro {
+    text-align: center;
+}
+
+#href {
+    color: rgb(102, 102, 253);
+    text-decoration: none;
+}
+
+#href2 {
+    text-decoration: none;
+}
+
+#textoo {
+    padding: 7px;
+    left: 600px;
+    color: transparent;
+    width: auto;
+    top: 194%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#xfintermine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56%;
+}
+
+#xfintermine1{
+    display: flex;
+    padding-left: 17%;
+    gap: 19%;
+}
+
+#shh{
+    color: white;
+}
+
+#p1, #p2{
+    color: black;
+}
+
+#famb{
+    left: 310px;
+    top: 223%;
+    color:rgb(255, 0, 221);
+    background-image: url('1.png');
+text-decoration: none;
+    width: 90px;
+height: 236px;
+padding-left: 200px;
+}
+
+
+
+#famb1{
+    left: 647px;
+    top: 223%;
+    color:rgb(255, 0, 221);
+    background-image: url('2.PNG');
+    width: 89px;
+height: 236px;
+padding-left: 200px;
+}
+
+
+#famb22{
+    left: 991px;
+    top: 223%;
+    color:rgb(255, 0, 221);
+     width: 89px;
+height: 236px;
+    padding-left: 200px;
+    background-image: url('3.png');
+}
+
+#td1,#td2,#td3{
+    text-decoration: none;
+}
+
+
+#ZzZz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+
+}
+
+/*Animacion de botones*/
+#espacio{
+    letter-spacing: 0ex;
+}
+.btn-neon{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 0px 0px;
+    border-radius: 10px;
+    background-color:rgb(253, 253, 253) ;
+    position: relative;
+    display: inline-block;
+    color: rgb(2,5,66);
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover{
+    background-color: rgb(184, 36, 230);
+    box-shadow: 0 0 10px rgb(184, 36, 230), 0 0 40px rgb(184, 36, 230), 0 0 80px rgb(184, 36, 230) ;
+    transition-delay: 1s;
+
+}
+
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90grad, transparent, rgb(184, 36, 230));
+}
+
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270grad, transparent, rgb(184, 36, 230));
+}
+
+.btn-neon:hover #span3 {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180grad, transparent, rgb(174, 36, 230));
+}
+
+.btn-neon:hover #span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360grad, transparent, rgb(174, 36, 230));
+}
+
+.btn-neon:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+@media (min-width:200px) {
+    #a1,
+    #a2,
+    #a3 {
+        text-decoration: none;
+        color: black;
+        padding-right: 22px;
+    }
+    
+    #div1 {
+        left: 0%;
+        top: 0%;
+        /*Sirve para que el menú este al tope de la pantalla, pq si no se lo pongo queda mal en la presentación*/
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: white;
+        /*Esta línea sirve para que el div que contiene todo el menú, ps se quede estatica y cuando bajemos en la pág el menu lo tengamos a la mano practicamente*/
+        z-index: 999999;
+        /*Esta línea sirve para que el menú se muestre por encima de todos los objetos*/
+        width: 101%;
+        /*Esta línea sirve para que el menú se muestre en toda la pantalla, por si se preguntan que significa vw es viewport width, ps osea  */
+    
+    
+    }
+    
+    #btn1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+        /*Esta línea es más que todo algo estetico, sirve para cambiarle de alguna manera la apariencia del cursor*/
+        border-color: transparent;
+        border-radius: 8px;
+        background-color: rgb(184, 36, 230);
+        color: white;
+    }
+    
+    #btn1:hover {
+        /*Esta línea es para que cuand pasemos el cursor por encima del boton que tiene ps el id cambie al estilo que ps uno quiera */
+        color: white;
+        background-color: rgb(184, 36, 230);
+    }
+    
+    #h1 {
+        padding-left: 22%;
+        padding-top: 1%;
+    }
+    
+    
+    #gif {
+        padding-left: 90px;
+        max-width: 280px;
+        max-height: 280px;
+        rotate: 30grad;
+        margin-bottom: -105px;
+    
+    }
+    
+    #div2 {
+        text-align: center;
+        border-style: solid;
+        border-color: transparent;
+        background-color: rgb(233, 241, 247);
+        color: rgb(50, 65, 88);
+        width: 101%;
+    }
+    
+    #img22 {
+        width: 102%;
+        height: 100%;
+    }
+    
+    #imgif {
+        max-width: 150px;
+        min-width: 150px;
+    }
+    
+    #div222 {
+        background-image: url('RWPaVx.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 101%;
+        height: 355px;
+    }
+    
+    body {
+        overflow-x: hidden;
+        /*esto sirve para deshabilitar la barra de desplzamiento horizontal pq la imagen que va despues del Bienvenidos a mi juego quedaba mas pequeño que el div y se veia feo*/
+    }
+    
+    #txt1 {
+        padding: 20px;
+        margin-left: 130px;
+        background-color: rgb(233, 241, 247);
+        color: rgb(50, 65, 88);
+        width: 270px;
+        top: 63%;
+    }
+    
+    #btn12 {
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+        border-color: transparent;
+        border-radius: 8px;
+        background-color: rgb(0, 85, 255);
+        color: white;
+    }
+    
+    #btn12:hover {
+        color: white;
+        background-color: rgb(0, 183, 255);
+    }
+    
+    #step {
+        text-align: center;
+    }
+    
+    #flex {
+        display: flex;
+    }
+    
+    #step1 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color: white;
+        color: rgb(50, 65, 88);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        border: 1px solid black;
+        border-color: rgb(215, 215, 215);
+    }
+    
+    #step11 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color: white;
+        color: rgb(50, 65, 88);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        border: 1px solid black;
+        border-color: rgb(215, 215, 215);
+    }
+    
+    #resu1 {
+        padding-top: 71px;
+        padding-bottom: 71px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(233, 241, 247);
+        color: rgb(50, 65, 88);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        border: 1px solid black;
+        max-width: 570px;
+        border-color: rgb(215, 215, 215);
+    }
+    
+    #resu11 {
+        padding-top: 71px;
+        padding-bottom: 71px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        border: 1px solid black;
+        background-color: rgb(233, 241, 247);
+        color: rgb(50, 65, 88);
+        max-width: 570px;
+        max-height: 300px;
+        border-color: rgb(215, 215, 215);
+    }
+    
+    #dad {
+    padding-left: 23%;
+    }
+    
+    #txt2 {
+        padding: 10px;
+        margin-left: 100px;
+        color: rgb(254, 0, 0);
+        border-color: transparent;
+        background-color: transparent;
+        width: 270px;
+        position: absolute;
+        top: 119%;
+        left: 36%;
+    }
+    
+    #micro {
+        text-align: center;
+    }
+    
+    #href {
+        color: rgb(102, 102, 253);
+        text-decoration: none;
+    }
+    
+    #href2 {
+        text-decoration: none;
+    }
+    
+    #textoo {
+        padding: 7px;
+        left: 600px;
+        color: transparent;
+        width: auto;
+        top: 194%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    #xfintermine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 56%;
+    }
+    
+    #xfintermine1{
+        display: flex;
+        padding-left: 17%;
+        gap: 19%;
+    }
+    
+    #shh{
+        color: white;
+    }
+    
+    #p1, #p2{
+        color: black;
+    }
+    
+    #famb{
+        left: 310px;
+        top: 223%;
+        color:rgb(255, 0, 221);
+        background-image: url('1.png');
+    text-decoration: none;
+        width: 90px;
+    height: 236px;
+    padding-left: 200px;
+    }
+    
+    
+    
+    #famb1{
+        left: 647px;
+        top: 223%;
+        color:rgb(255, 0, 221);
+        background-image: url('2.PNG');
+        width: 89px;
+    height: 236px;
+    padding-left: 200px;
+    }
+    
+    
+    #famb22{
+        left: 991px;
+        top: 223%;
+        color:rgb(255, 0, 221);
+         width: 89px;
+    height: 236px;
+        padding-left: 200px;
+        background-image: url('3.png');
+    }
+    
+    #td1,#td2,#td3{
+        text-decoration: none;
+    }
+    
+    
+    #ZzZz{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8%;
+    
+    }
+    
+    /*Animacion de botones*/
+    #espacio{
+        letter-spacing: 0ex;
+    }
+    .btn-neon{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 1px 1px 0px 0px;
+        border-radius: 10px;
+        background-color:rgb(253, 253, 253) ;
+        position: relative;
+        display: inline-block;
+        color: rgb(2,5,66);
+        letter-spacing: 4px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    
+    .btn-neon:hover{
+        background-color: rgb(184, 36, 230);
+        box-shadow: 0 0 10px rgb(184, 36, 230), 0 0 40px rgb(184, 36, 230), 0 0 80px rgb(184, 36, 230) ;
+        transition-delay: 1s;
+    
+    }
+    
+    .btn-neon span{
+        position: absolute;
+        display: block;
+    }
+    
+    #span1{
+        top: 0%;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90grad, transparent, rgb(184, 36, 230));
+    }
+    
+    .btn-neon:hover #span1{
+        left: 100%;
+        transition: 1s;
+    }
+    #span3{
+        bottom: 0%;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270grad, transparent, rgb(184, 36, 230));
+    }
+    
+    .btn-neon:hover #span3 {
+        right: 100%;
+        transition: 1s;
+        transition-delay: 0.5s;
+    }
+    
+    #span2{
+        top: -100%;
+        right: 0%;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180grad, transparent, rgb(174, 36, 230));
+    }
+    
+    .btn-neon:hover #span2 {
+        top: 100%;
+        transition: 1s;
+        transition-delay: 0.25s;
+    }
+    
+    #span4{
+        bottom: -100%;
+        left: 0%;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360grad, transparent, rgb(174, 36, 230));
+    }
+    
+    .btn-neon:hover #span4 {
+        bottom: 100%;
+        transition: 1s;
+        transition-delay: 0.75s;
+    }
+}
