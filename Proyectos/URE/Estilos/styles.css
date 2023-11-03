@@ -1,0 +1,818 @@
+#header,
+.nieto {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+#header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 128.8px;
+    background-color: white;
+    box-shadow: 0 20px 25px -10px gray;
+}
+
+.iconos {
+    height: 27px;
+    width: 27px;
+}
+
+.nieto {
+    justify-content: end;
+    align-items: center;
+}
+
+.n1 {
+    height: 33px;
+    padding-top: 8px;
+}
+
+.n2 {
+    height: 46.8px;
+    padding-top: 12px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#header {
+    padding-bottom: 15px;
+}
+
+.azul {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+#apoyo {
+    height: 45.25px;
+    width: 150px;
+    color: chocolate;
+    background-color: white;
+    border-color: chocolate;
+    font-weight: bold;
+}
+
+.azul,
+#apoyo,
+.text1 {
+    font-size: 19px;
+}
+
+.nietos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ure {
+    height: 49.63px;
+}
+
+#div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div1 {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    column-gap: 40px;
+    justify-content: space-between;
+}
+
+#div0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-image: url('../imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    height: 724px;
+    background-size: cover;
+
+}
+
+#h3 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 125px;
+    margin-bottom: 30px;
+}
+
+#boton {
+    font-size: 20px;
+    height: 77px;
+    padding-bottom: 22px;
+    padding-top: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    background-color: rgba(6, 255, 139, 0.445);
+    border: 5px solid darkgreen;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 50px;
+    margin: 0px;
+
+}
+
+.xd {
+    border-right: 2px white solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pr {
+    font-size: 20px;
+}
+
+#entrevista {
+    display: grid;
+    grid-template-columns: 70% 10%;
+    padding: 30px;
+    column-gap: 25px;
+    width: 50%;
+    align-items: center;
+    background-color: lightcyan;
+    box-shadow: 0 20px 25px -10px gray;
+}
+
+#textohi {
+    padding: 15px;
+    height: 225px;
+    border: 2px solid;
+    font-size: 17px;
+}
+
+#texto {
+    border-right: 4px solid;
+    padding-right: 100px;
+}
+
+#person {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#name {
+    font-size: 19px;
+}
+
+#fecha {
+    font-size: 16px;
+    color: darkgray;
+}
+
+#posi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#jefe {
+    display: flex;
+    flex-direction: row;
+}
+
+#Pedro {
+    height: 62px;
+    border-radius: 50%;
+}
+
+#e4e {
+    height: 140px;
+}
+
+.imagen {
+    height: 102px;
+    width: 174px;
+}
+
+.empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 224px;
+    width: 292px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#filas {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    gap: 20px;
+    grid-template-rows: repeat(3, 270px);
+    justify-content: center;
+}
+
+.buton {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 20px 25px -10px gray;
+    border: 2px;
+    height: 224px;
+    width: 252px;
+    border-radius: 20px;
+}
+
+.buton:hover {
+    height: 250px;
+    width: 277px;
+    box-shadow: 20px 30px 25px -10px rgb(85, 85, 85);
+}
+
+#titulo1 {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#T1 {
+    margin-bottom: 60px;
+    font-size: 50px;
+
+}
+
+.parrafo {
+    font-size: 20px;
+}
+
+#Vermas {
+    color: chocolate;
+    background-color: white;
+    border-color: chocolate;
+    font-weight: bold;
+    height: 70.83px;
+    width: 326px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.defi {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 555.53px;
+    width: 1170px;
+    justify-content: center;
+}
+
+.imgdefi {
+    height: 555.53px;
+    box-shadow: 0 20px 25px -10px gray;
+    border-radius: 20px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 89px;
+    margin-right: 89px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tit {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#tit2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.parra {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.consejos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recomendaciones {
+    height: 285px;
+    width: 258px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -10px gray;
+}
+
+.recomendaciones:hover {
+    height: 300px;
+    width: 278px;
+    box-shadow: 20px 20px 25px -10px rgb(85, 85, 85);
+}
+
+.imagenex {
+    height: 60px;
+    width: 228px;
+    padding: 15px;
+}
+
+.medidas {
+    margin-top: 110px;
+    font-size: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#botonver {
+    font-size: 25px;
+    padding: 22px;
+    margin-top: 100px;
+    background-color: white;
+    color: chocolate;
+    border-color: chocolate;
+    border-radius: 15px;
+}
+
+#ejemplo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
+}
+
+#desmas {
+    color: chocolate;
+    background-color: white;
+    border-color: chocolate;
+    font-weight: bold;
+    height: 70.83px;
+    width: 326px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#reloj {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenec {
+    height: 360px;
+    width: 460px;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.recomendacionex {
+    height: 585px;
+    width: 460px;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -10px gray;
+}
+
+.recomendacionex:hover {
+    box-shadow: 20px 30px 25px -10px rgb(85, 85, 85);
+    height: 600px;
+    width: 480px;
+}
+
+#botonver2 {
+    font-size: 25px;
+    padding: 22px;
+    margin-top: 100px;
+    background-color: white;
+    color: chocolate;
+    border-color: chocolate;
+    border-radius: 15px;
+}
+
+.linka {
+    text-decoration: none;
+    color: chocolate;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+#imgfoot {
+    height: 50px;
+    width: 20%;
+}
+
+.li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.imgf {
+    height: 34px;
+    border-radius: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imgf:hover {
+    box-shadow: 0px 20px 25px -10px gray;
+    height: 44px;
+    border-radius: 22px;
+}
+
+#chat {
+    height: 90px;
+    border-radius: 24px;
+}
+
+#divchat {
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+#finalf {
+    width: 80%;
+    border-top: 2px gray solid;
+    padding-top: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.datos {
+    text-decoration: none;
+    color: gray;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-left: 2px solid gray;
+}
+
+.foot {
+    padding-right: 6px;
+}
+
+.iconosres,
+.menu, #botoculto {
+    display: none;
+}
+
+@media (min-width:300px) and (max-width: 900px) {
+
+    header {
+        height: 63px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .responsive {
+        display: none;
+    }
+
+    .iconosres {
+        display: initial;
+        height: 27px;
+        width: 27px;
+        border-radius: 15px;
+    }
+
+    .nietos {
+        display: none;
+    }
+
+    #header,
+    .nieto {
+        align-items: center;
+        height: 63px;
+        column-gap: 20px;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    #apoyo {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+        height: 37px;
+    }
+
+    #ure {
+        height: 34px;
+    }
+
+    #div0 {
+        background-image: none;
+        /*background-color: green;*/
+        background: radial-gradient(green, darkgreen);
+        height: 554px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #div {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    #h3 {
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    #boton {
+        font-size: 16px;
+        height: 67px;
+    }
+
+    .h2 {
+        font-size: 23px;
+    }
+
+    .pr {
+        font-size: 16px;
+    }
+
+    #div1 {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .xd {
+        border-right: 0;
+        border-bottom: 2px solid white;
+        margin-bottom: 16px;
+    }
+
+    #entrevista {
+        grid-template-columns: 90%;
+        grid-template-rows: 80% 10%;
+        width: 100%;
+        align-items: center;
+    }
+
+    #textohi {
+        margin-bottom: 0;
+    }
+
+    #texto {
+        font-size: 10px;
+        padding: 0;
+        border: 0;
+    }
+
+    #e4e {
+        height: 84px;
+
+    }
+
+    #vista {
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    #name,
+    #fecha {
+        font-size: 13px;
+    }
+
+    #jefe {
+        padding-top: 20px;
+    }
+
+    #Pedro {
+        height: 50px;
+        width: 50px;
+    }
+
+    #cortar {
+        display: none;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    #T1 {
+        font-size: 28px;
+    }
+
+    #filas {
+        grid-template-columns: 170px 170px;
+        row-gap: 80px;
+        grid-template-rows: repeat(6, 145px);
+    }
+
+    .empresas {
+        height: 143px;
+        width: 170px;
+        margin: 0;
+    }
+
+    .imagen {
+        width: 76px;
+        height: 62px;
+        margin-bottom: 10px;
+    }
+
+    .parrafo {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .buton {
+        width: 170px;
+    }
+
+    #botoculto {
+        display: initial;
+        height: 57px;
+        width: 180px;
+        color: chocolate;
+        background-color: white;
+        border-color: chocolate;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 60px;
+    }
+
+    #titulo1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #oculto {
+        text-decoration: none;
+    }
+
+    .defi{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 852px;
+    }
+
+    #imagendefi, .imgdefi {
+        height: 255px;
+        width: 90%;
+        text-align: center;
+
+    }
+    .centro {
+        margin: 0;
+    }
+
+    .parra {
+        font-size: 18px;
+    }
+
+    .tit {
+        font-size: 30px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #tit2{
+        font-size: 26px;
+    }
+
+    #Vermas {
+        font-size: 16px;
+        height: 64px;
+        width: 326px;
+        margin-bottom: 25px;
+    }
+
+    #ejemplo {
+        margin: 0;
+        padding-top: 60px;
+    }
+
+    .medidas {
+        margin: 0;
+        margin-bottom: 60px;
+        font-size: 30px;
+    }
+
+    .una {
+        display: none;
+    }
+
+    #botonver {
+        width: 326px;
+        height: 67px;
+        font-size: 16px;
+    }
+
+    #reloj {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .consejos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recomendacionex {
+        width: 85%;
+        height: 520px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .imagenec {
+        height: 258px;
+        width: 90%;
+    }
+
+    #botonver2 {
+        width: 326px;
+        font-size: 18px;
+    }
+    
+    .ul{
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    #finalf{
+        flex-direction: column;
+        padding: 0;
+    }
+}
